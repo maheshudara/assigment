@@ -1,0 +1,1 @@
+Cronjob - 5 * * * * aws s3 cp CheckStatus.log s3://maheshbackup
