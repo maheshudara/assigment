@@ -1,1 +1,2 @@
-Cronjob - 5 * * * * aws s3 cp CheckStatus.log s3://maheshbackup
+5 * * * * aws s3 cp CheckStatus.log s3://maheshbackup
+5 * * * * aws s3 cp status_2021.tar.gz *.log  s3://maheshbackup
